@@ -4,7 +4,7 @@
 
 ## Running website-school-educational locally
 
-Website-school-educational it's simple website made with html, css and javascript. to run locally, you can use python to create a simple server.
+Website-school-educational it's simple website made with html, css and javascript. To run locally, you can use python to create a simple server.
 
 For get the necessary python version: https://docs.python-guide.org/starting/install3/linux/
 
