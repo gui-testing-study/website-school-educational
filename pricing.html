@@ -26,21 +26,21 @@
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" data-cy="pricing-navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
+                    <a class="navbar-brand" data-cy="pricing-navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li> 
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="services.html">Services</a></li>
-                        <li><a href="courses.html">Courses</a></li>
-                        <li class="active"><a href="pricing.html">Pricing</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a data-cy="pricing-home" href="index.html">Home</a></li> 
+						<li><a data-cy="pricing-about" href="about.html">About Us</a></li>
+						<li><a data-cy="pricing-service" href="services.html">Services</a></li>
+                        <li><a href="courses.html" data-cy="pricing-courses">Courses</a></li>
+                        <li class="active"><a href="pricing.html" data-cy="pricing-pricing">Pricing</a></li>
+                        <li><a href="contact.html" data-cy="pricing-contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -80,7 +80,7 @@
 						</ul>
 					</div>
 					<div class="pricing-action">
-						<a href="#" class="btn btn-medium"><i class="icon-bolt"></i> Get Now</a>
+						<a href="#" class="btn btn-medium"><i class="icon-bolt" data-cy="pricing-get-now-1"></i> Get Now</a>
 					</div>
 				</div>
 			</div>
@@ -102,7 +102,7 @@
 						</ul>
 					</div>
 					<div class="pricing-action">
-						<a href="#" class="btn btn-medium"><i class="icon-bolt"></i> Get Now</a>
+						<a href="#" class="btn btn-medium"><i class="icon-bolt" data-cy="pricing-get-now-2"></i> Get Now</a>
 					</div>
 				</div>
 			</div>
@@ -124,7 +124,7 @@
 						</ul>
 					</div>
 					<div class="pricing-action">
-						<a href="#" class="btn btn-medium"><i class="icon-bolt"></i> Get Now</a>
+						<a href="#" class="btn btn-medium"><i class="icon-bolt" data-cy="pricing-get-now-3"></i> Get Now</a>
 					</div>
 				</div>
 			</div>
@@ -146,7 +146,7 @@
 						</ul>
 					</div>
 					<div class="pricing-action">
-						<a href="#" class="btn btn-medium"><i class="icon-bolt"></i> Get Now</a>
+						<a href="#" class="btn btn-medium" data-cy="pricing-get-now-4"><i class="icon-bolt"></i> Get Now</a>
 					</div>
 				</div>
 			</div>
@@ -173,11 +173,11 @@
 				<div class="widget">
 					<h5 class="widgetheading">Quick Links</h5>
 					<ul class="link-list">
-						<li><a href="#">Latest Events</a></li>
-						<li><a href="#">Terms and conditions</a></li>
-						<li><a href="#">Privacy policy</a></li>
-						<li><a href="#">Career</a></li>
-						<li><a href="#">Contact us</a></li>
+						<li><a data-cy="pricing-events" href="#">Latest Events</a></li>
+						<li><a data-cy="pricing-terms" href="#">Terms and conditions</a></li>
+						<li><a data-cy="pricing-privacy" href="#">Privacy policy</a></li>
+						<li><a data-cy="pricing-career" href="#">Career</a></li>
+						<li><a data-cy="pricing-contact-us" href="#">Contact us</a></li>
 					</ul>
 				</div>
 			</div>
@@ -185,9 +185,9 @@
 				<div class="widget">
 					<h5 class="widgetheading">Latest posts</h5>
 					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus  sit voluptatem accusantium doloremque</a></li>
+						<li><a data-cy="pricing-text-1" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+						<li><a data-cy="pricing-text-2" href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+						<li><a data-cy="pricing-text-3" href="#">Natus sit voluptatem accusantium doloremque</a></li>
 					</ul>
 				</div>
 			</div>
@@ -195,9 +195,9 @@
 					<div class="widget">
 					<h5 class="widgetheading">Recent News</h5>
 					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus  sit voluptatem accusantium doloremque</a></li>
+						<li><a data-cy="pricing-text-4" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+						<li><a data-cy="pricing-text-5" href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+						<li><a data-cy="pricing-text-6" href="#">Natus sit voluptatem accusantium doloremque</a></li>
 					</ul>
 				</div>
 			</div>
@@ -209,17 +209,17 @@
 				<div class="col-lg-6">
 					<div class="copyright">
 						<p>
-							<span>&copy; School Educational 2015 All right reserved. By </span><a href="http://webthemez.com" target="_blank">WebThemez</a>
+							<span>&copy; School Educational 2015 All right reserved. By </span><a href="http://webthemez.com" data-cy="pricing-WebThemez" target="_blank">WebThemez</a>
 						</p>
 					</div>
 				</div>
 				<div class="col-lg-6">
 					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+						<li><a data-cy="pricing-facebook" href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a data-cy="pricing-twitter" href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a data-cy="pricing-linkedin" href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						<li><a data-cy="pricing-pinterest" href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+						<li><a data-cy="pricing-google" href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -227,7 +227,7 @@
 	</div>
 	</footer>
 </div>
-<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<a href="#" data-cy="pricing-angle-up" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 <!-- javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
